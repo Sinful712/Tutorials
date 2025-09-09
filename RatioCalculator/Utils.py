@@ -1,3 +1,3 @@
-def GetFloatInput():
+def GetFloatInput(text):
     global Operation
-    Operation = float(input(">>> "))
+    Operation = float(input(f"{text}\n>>> "))
