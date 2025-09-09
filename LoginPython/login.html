@@ -3,13 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Login</h2>
-  <form method="POST" action="/login">
-    Username: <input name="username"><br>
-    Password: <input type="password" name="password"><br>
-    <input type="submit" value="Login">
-  </form>
+  <header>
+    My Simple WebApp
+    <nav>
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+      <a href="/signup">Sign Up</a>
+    </nav>
+  </header>
+  
+  <main>
+    <form method="POST" action="/login">
+      <h2>Login</h2>
+      Username: <input name="username" type="text"><br>
+      Password: <input type="password" name="password"><br>
+      <input type="submit" value="Login">
+    </form>
+  </main>
 </body>
 </html>
