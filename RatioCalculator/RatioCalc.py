@@ -17,17 +17,14 @@ class RatioCalculator:
         WH = str(input())
         print()
         
-        if WH == "W" or WH == "w":
-            print("Width: ")
-            a = GetFloatInput()
+        if WH == "W" or WH == "w":
+            a = GetFloatInput("Width: ")
             print()
 
-            print('Hight: ')
-            b = GetFloatInput()
+            b = GetFloatInput("Hight: ")
             print()
 
-            print('Width: ')
-            c = GetFloatInput()
+            c = GetFloatInput("Width: ")
             print()
 
             print('Calculating...\n')
@@ -36,17 +33,14 @@ class RatioCalculator:
 
             print("-> ", a, " : ", b, "  =  ", c, " : ", x,)
 
-        elif WH == "H" or WH == "h":
-            print("Hight: ")
-            a = GetFloatInput()
+        elif WH == "H" or WH == "h":
+            a = GetFloatInput("Hight: ")
             print()
 
-            print('Width: ')
-            b = GetFloatInput()
+            b = GetFloatInput("Width: ")
             print()
 
-            print('Hight: ')
-            c = GetFloatInput()
+            c = GetFloatInput("Hight: ")
             print()
 
             print('Calculating...\n')
