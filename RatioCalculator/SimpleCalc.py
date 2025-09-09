@@ -1,7 +1,7 @@
 from time import sleep
 
 from Utils import GetFloatInput
-class SimpleCalc:
+class SimpleCalculator:
     
     # Variables
     Operation = str(' ')

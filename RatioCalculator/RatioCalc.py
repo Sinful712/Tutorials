@@ -1,7 +1,7 @@
 from time import sleep
 
 from Utils import GetFloatInput
-class RatioCalc:
+class RatioCalculator:
 
 
     Iteration = 0
