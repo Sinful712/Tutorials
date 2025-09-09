@@ -26,4 +26,4 @@ Clone the repository and run the Python files:
 ```bash
 git clone https://github.com/Sinful712/Tutorials.git
 ```
-[INFO] To learn how to use each project there is a readme.md in each folder explaining usage.
+[INFO] To learn how to use each project there is a README.md in each folder explaining usage.
