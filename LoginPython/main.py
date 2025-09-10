@@ -71,11 +71,11 @@ def handle_get(path):
     # TECHNICAL: Default to landing page if root
     # DESCRIPTIVE: If someone visits "/", show the home page
     if path == "/":
-        path = "/landing.html"
+        path = "src/landing.html"
     elif path == "/login":
-        path = "/login.html"
+        path = "src/login.html"
     elif path == "/signup":
-        path = "/signup.html"
+        path = "src/signup.html"
     elif path == "/welcome":  # TECHNICAL: Special route for welcome message        # DESCRIPTIVE: Page shown after login
         return welcome()
 
