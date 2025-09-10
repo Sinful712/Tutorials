@@ -1,3 +1,5 @@
+# TECHNICAL: Standard imports
+# DESCRIPTIVE: The python modules im using in this project
 import socket  # TECHNICAL: Import the socket library to work with network connections
                # DESCRIPTIVE: This lets our program talk over the internet
 import os      # TECHNICAL: Import the os library to check for files and file paths
@@ -34,6 +36,7 @@ def save_user(username, password):  # TECHNICAL: Function takes in a username an
         f.write(f"{username}:{password}\n")  # TECHNICAL: Write the new username and password with a newline
                                              # DESCRIPTIVE: Add new user to the file
 
+# Displays all the currently registered usernames to the user
 def welcome():
     usernames = []  # TECHNICAL: Initialize an empty list to store usernames
                      # DESCRIPTIVE: Start a list to collect all usernames from the file
