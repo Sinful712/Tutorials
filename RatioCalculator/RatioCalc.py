@@ -31,7 +31,7 @@ class RatioCalculator:
             sleep(0.5)
             x = float((c * b) / a)
 
-            print("-> ", a, " : ", b, "  =  ", c, " : ", x,)
+            print(f"-> {a} : {b}  =  {c} : {x}")
 
         elif WH == "H" or WH == "h":
             a = GetFloatInput("Hight: ")
@@ -47,7 +47,7 @@ class RatioCalculator:
             sleep(0.5)
             x = float((c * b) / a)
 
-            print("-> ", b, " : ", a, "  =  ", x, " : ", c,)
+            print("-> {b} : {a}  =  {x} : {c}")
 
         elif WH == 'Done' or WH == 'done':
             print("\nReturning...\n")
