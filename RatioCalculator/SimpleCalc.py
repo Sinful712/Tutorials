@@ -59,9 +59,9 @@ class SimpleCalculator:
 
             print('Calculating...\n')
             sleep(0.5)
-            c = a + b
+            c = a * b
 
-            print("-> ", a, ' + ', b, ' = ', c)
+            print("-> ", a, ' x ', b, ' = ', c)
 
         elif Operation == 4:
             print("Num1: ")
@@ -73,9 +73,9 @@ class SimpleCalculator:
             print()
 
             print('Calculating...\n')
-            c = a + b
+            c = a / b
 
-            print("-> ", a, ' + ', b, ' = ', c)
+            print("-> ", a, ' ÷ ', b, ' = ', c)
 
         elif Operation == 'Done'or Operation == 'done':
             print("\nReturning...\n")
