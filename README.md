@@ -1,6 +1,7 @@
 # Tutorials
 
-A collection of Python projects and small utilities designed for learning, experimentation, and practical use. Each project demonstrates different programming concepts and problem-solving techniques.
+A collection of Python projects and small utilities designed for learning, experimentation, and practical use.  
+Each project demonstrates different programming concepts and problem-solving techniques.
 
 ## Projects
 
