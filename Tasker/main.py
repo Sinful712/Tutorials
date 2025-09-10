@@ -4,7 +4,7 @@ from tasks import *
 colorama.init(autoreset=True)
 
 def main():
-    parser = argparse.ArgumentParser(description="Task Tracker CLI")
+    parser = argparse.ArgumentParser(description="CLI Task Tracker")
     parser.add_argument("command", nargs='?', help="Command to run (add/list/complete/delete/edit/export)")
     parser.add_argument("param", nargs='?', help="Parameter (e.g. task description or index)")
 
