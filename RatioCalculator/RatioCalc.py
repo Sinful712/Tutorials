@@ -47,7 +47,7 @@ class RatioCalculator:
             sleep(0.5)
             x = float((c * b) / a)
 
-            print("-> {b} : {a}  =  {x} : {c}")
+            print(f"-> {b} : {a}  =  {x} : {c}")
 
         elif WH == 'Done' or WH == 'done':
             print("\nReturning...\n")
